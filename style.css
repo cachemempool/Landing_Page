@@ -35,7 +35,6 @@ a {
     text-decoration: none;
 }
 
-
 .media {
     display: flex;
     justify-content: flex-start;
@@ -130,7 +129,6 @@ li img {
 
 }
 
-
 .info img {
     border: 5px solid #2d66c2;
     border-radius: 8px;
@@ -141,7 +139,6 @@ li img {
 .info-text {
     margin: 6px 0;
 }
-
 
 .quote-section {
     background-color: #e5e7eb;
@@ -202,7 +199,6 @@ li img {
     height: 20px;
 }
 
-
 .footer {
     display: flex;
     flex-direction: column;
@@ -213,22 +209,17 @@ li img {
     color: #f9faf8;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* {
-    border: 1px solid rgb(105, 105, 23);
-    
+.why {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    flex: auto;
 }
+
+
+
+
