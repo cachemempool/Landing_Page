@@ -1,0 +1,68 @@
+
+
+* {
+    border: 1px solid rgb(105, 105, 23);
+}
+
+html {
+    height: 100vh;
+
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+header {
+    background-color: #1f2937;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 63px;
+    flex-shrink: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 10px;
+}
+
+
+
+.top ul a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.bottom {
+
+    margin: 0px auto;
+    display: flex;
+    gap: 15px;
+    flex: auto;
+}
+
+.placeholder{
+   flex-grow: 1;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
